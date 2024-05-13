@@ -1,0 +1,43 @@
+* { 
+    margin: o;
+    padding: o;
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    :root {
+        --color-primary: rgb(17, 17, 1);
+        --secondary-color: green;
+    }
+    
+  
+header {
+    background-color:var(--color-primary);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav ul li a:hover {
+    color: var(--secondary-color)
+}
+
